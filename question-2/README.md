@@ -35,10 +35,10 @@ Tanto para las visitas únicas (impressions) como para los clicks únicos entend
 Si un usuario hace click 5 veces a un mismo producto, ese producto al ser el mismo usuario que ha clickeado sobre el, contara como que le han hecho un solo click, si en un futuro otro usuario realiza 4 clicks sobre el mismo producto, el producto contara estos 4 click como 1 solo, lo que llevaría al producto a tener 2 click únicos. En otras palabras, cuenta cuantos usuarios distintos han clickeado sobre el producto. Esta misma lógica la asumí para las visitas.
 
 En cuanto al ctr, lo calcule como lo siguiente:
+
     ctr = clicks únicos  / visitas únicas 
 
 El archivo output.csv de ejemplo utilizaba 4 decimales para expresar el ctr, por lo cual lo deje de la misma manera y no lo lleve a porcentaje.
-
 
 ## Explicación
 
