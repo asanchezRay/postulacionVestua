@@ -26,7 +26,8 @@
 Para resolver el problema utilice algunas dependencias, por lo cual es necesario ejecutar
 
 ```
-npm install
+npm install csv-parser
+npm install csv-writer
 ```
 
 ## Supuestos asumidos
