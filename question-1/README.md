@@ -5,6 +5,7 @@
 # Razonamiento
 
 Al calcular los primeros 7 pisos de manera manual, dan los siguientes resultados:
+
     n = 1 -> 1
     n = 2 -> 2
     n = 3 -> 3
@@ -14,8 +15,8 @@ Al calcular los primeros 7 pisos de manera manual, dan los siguientes resultados
     n = 7 -> 21
 
 Al ver la sucesión me di cuenta de que la solcuión correspondia a la suma de los 2 anteriores, lo cual se puede calcular con la siguiente función recursiva:
+    
     f(n) = f(n-1) + f(n-2)
-
         f(1) = 1
         f(2) = 2
 
